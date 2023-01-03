@@ -1,0 +1,22 @@
+#dados {
+  width: 100%;
+  border: 1px solid gainsboro;
+  padding: 10px;
+  margin: 20px;
+
+}
+#header {
+  margin: 20px;
+  
+}
+th, td {
+  text-align: center;
+  padding: 8px;
+}
+
+a {
+  text-align: left;
+  display: block;
+  margin: 20px;
+
+}
