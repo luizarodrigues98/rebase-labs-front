@@ -7,16 +7,21 @@
   <body>
     <h1>Exames</h1>
     <hr>
-    <h5><li> pesquisar pelo token: (lab-3)</li></h5>
+    <h5>Busca</h5>
+    <label for="site-search"> Token: </label>
+    <input type="search" id="site-search" name="q">
+    <button id="search-button"> Buscar </button> 
+    <hr>
+    
     <div id="exams" style="overflow-x:auto;">
       <table class="table table-responsive" style="width: 100%">
         <thead>
           <tr>
-            <th>CPF</th>
-            <th>Paciente</th>
-            <th>Token</th>
-            <th>Exame</th>
-            <th>-</th>
+            <th class="header">Paciente</th>
+            <th class="header">CPF</th>
+            <th class="header">Médico</th>
+            <th class="header">Token</th>
+            <th class="header">-</th>
           </tr>
         </thead>
         <tbody>
@@ -24,6 +29,6 @@
         </tbody>
       </table>  
     </div>
-    <script src="js/index.js"></script>
+    <script src="/js/index.js"></script>
   </body>
 </html>
