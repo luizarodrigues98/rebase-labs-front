@@ -2,7 +2,36 @@
   width: 100%;
   border: 1px solid gainsboro;
 }
+
 th, td {
   text-align: left;
   padding: 8px;
+}
+
+#divBusca{
+  background-color:#E0EEEE;
+  border:solid 2px #5F9EA0;
+  border-radius:10px;
+  width:300px;
+  height:32px;
+}
+
+#site-search{
+  float:left;
+  background-color:transparent;
+  padding-left:7px;
+  font-size:18px;
+  border:none;
+  height:32px;
+  width:191px;
+}
+
+#search-button{
+  border:none;
+  float:left;
+  height:32px;
+  border-radius:0 7px 8px 0;
+  width:100px;
+  font-weight:bold;
+  background:#5F9EA0;
 }
